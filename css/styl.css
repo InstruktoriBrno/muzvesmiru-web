@@ -1,0 +1,303 @@
+@font-face {
+  font-family: 'Gabriola';
+  src: url(../font/gabriola.ttf);
+}
+
+body {
+/*	color: #D8FFFF;*/
+  color: Black;
+	font-family: Gabriola, Geneva, Times New Roman;
+	font-size: 28px;
+	font-weight: normal;
+  line-height: 120%;
+	text-align: left;
+  margin: 0;
+  padding: 0;
+  border: 0;
+	background-color: Orange;
+	background-image: url(../img/pozadi.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+a {
+	color: Black;
+	border: none;
+}
+
+b {
+	font-size: 120%; 
+}
+
+img {
+	border: none;	
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+
+ul {
+/*
+  margin: 3px;
+*/
+  margin-left: 10px;
+  margin-right: 0px;
+  padding-left: 10px;
+  padding-right: 0px;
+	text-align: left;
+/*
+  list-style-image: url(/img/odrazka_small_12.png)
+*/
+}
+
+.ie {
+	text-align: left;
+}
+
+.obsah {
+  left: auto;
+  top: auto;
+	width: 980px;
+	height: auto;
+/*
+	height: 1000px;
+*/
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	position: relative;
+	overflow: visible;
+/*	background-color: #000000;*/
+/*	background-image: url(/img/pozadi.png);*/
+/*
+  z-index: 1;
+	width: 670px;
+	height: 750px;
+	background-color: White;
+*/
+}
+
+.text {
+	position: absolute; left: 330px; top: 190px;
+	width: 600px;
+	height: auto;
+/*
+	height: 600px;
+*/
+	overflow: visible;
+	text-align: justify;
+/*
+	background-color: #33FFFF;
+*/
+}
+
+.paticka {
+  text-align: center; 
+	position: absolute; left: 46px; top: 650px;
+	font-style: italic;
+	width: 100px;
+	height: 140px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+}
+
+.paticka a {
+	color: Black;
+	text-decoration: none;
+	border: none;
+}
+
+.enter {
+	width: 600px;
+	height: 600px;
+	margin: auto;
+	margin-top: 3%;
+	position: relative;
+	background-color: #B1C1C1;
+}
+
+.enter a:active {
+	color: #D8FFFF;
+}
+
+.enter a:visited {
+	color: #D8FFFF;
+}
+
+.center {
+  text-align: center; 
+}
+
+.right {
+  text-align: right; 
+}
+
+.autor {
+  margin-top: -14px;
+  margin-bottom: 18px;
+  text-align: right;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.tym-left {
+  margin: 8px;
+  float: left;
+	width: 200px;
+/*
+	height: 133px;
+*/
+}
+
+.tym-right {
+  margin: -16px 0px 0px 8px;
+  float: right;
+	width: 200px;
+/*
+	height: 133px;
+*/
+}
+
+.sova {
+  vertical-align: middle;
+/*	width: 35px;
+	height: 43px;*/
+}
+
+#enter {
+	width: 600px;
+	height: 600px;
+	position: absolute; left: 0px; top: 0px;
+	border: none;
+}
+
+#pozadi {
+	width: 980px;
+	height: 1004px;
+}
+
+#default {
+/*	width: 165px;
+	height: 45px;*/
+	position: absolute; left: 57px; top: 40px;
+	border: none;
+}
+
+#menu_1 {
+/*	width: 310px;
+	height: 50px;*/
+	position: absolute; left: 46px; top: 200px;
+	border: none;
+}
+
+#menu_2 {
+/*	width: 310px;
+	height: 50px;*/
+	position: absolute; left: 46px; top: 280px;
+	border: none;
+}
+
+#menu_3 {
+/*	width: 310px;
+	height: 50px;*/
+	position: absolute; left: 46px; top: 360px;
+	border: none;
+}
+
+#menu_4 {
+/*	width: 310px;
+	height: 50px;*/
+	position: absolute; left: 46px; top: 440px;
+	border: none;
+}
+
+#menu_5 {
+/*	width: 310px;
+	height: 50px;*/
+	position: absolute; left: 46px; top: 520px;
+	border: none;
+}
+
+#menu_pict {
+/*	width: 229px;
+	height: 357px;*/
+	position: absolute; left: 46px; top: 460px;
+	border: none;
+}
+
+#form {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 120%;
+  text-align: left;
+/*
+  margin-left: 70px;
+*/
+}
+
+#subform {
+  margin-bottom: 14px;
+  font-size: 80%;
+  text-align: left;
+/*
+  margin-left: 43px;
+*/
+}
+
+#button {
+  margin-top: 10px;
+  text-align: center;
+/*
+  margin-left: 110px;
+*/
+}
+
+#itik {
+  text-align: left;
+}
+
+#mapa {
+	width: 360px;
+	height: 342px;
+	border: none;
+}
+
+#counter {
+	color: black;
+	font-size: 70%;
+}
+
+#mensi {
+  font-size: 90%;
+}
+
+#vzkaz {
+  font-size: 80%;
+/*
+	font-weight: normal;
+*/
+}
+
+/*
+#adams {
+	width: 100px;
+	height: 122px;
+	position: absolute; left: 45px; top: 197px;
+}
+*/
+
+#sypka {
+	width: 360px;
+	height: 249px;
+	
+}
+
+#center {
+	text-align: center;
+/*
+	font-style: italic;
+*/
+}
